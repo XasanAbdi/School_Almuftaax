@@ -13,6 +13,6 @@ app.use('/api/user',userRoutes)
 
 
 const port=process.env.PRT || 5000
-app.listen(port,()=>{
+app.listen(port,()=>{ 
     console.log(`Sever is running  on port ${port}`)
-})
+}) 

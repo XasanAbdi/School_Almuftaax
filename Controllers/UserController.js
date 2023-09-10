@@ -1,4 +1,4 @@
-import Users from "../models/UserModels.js";
+ import Users from "../models/UserModels.js";
 import generateToken from "../utilits/generateToken.js";
 
 
@@ -26,7 +26,8 @@ export const register=async(req,res)=>{
 
             })
             
-        }else{
+        }
+        else{
         res.status(400).json({message:'invalid user data'})
 
         }
